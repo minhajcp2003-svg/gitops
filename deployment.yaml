@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: saiappan/admin:v1
         ports:
         - containerPort: 80
 
